@@ -1,0 +1,16 @@
+{
+    "require": {
+        "chrisyue/php-m3u8": "^4",
+        "guzzlehttp/guzzle": "^7.0",
+        "ext-openssl": "*",
+        "psr/log": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tauri\\M3u8Downloader\\": "src/"
+        },
+        "files": [
+            "src/utils.php"
+        ]
+    }
+}
