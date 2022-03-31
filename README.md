@@ -2,7 +2,7 @@
 
 PHP class for download/record m3u8 files. It can also decrypt and join the fragments.
 
-##Usage
+## Usage
 
 Basic usage:
 ```
@@ -27,7 +27,7 @@ $downloader->download();
 
 ```
 
-You can check the _example_ folder for a more complete usage.
+You can check the [example file](https://github.com/tauri77/php-m3u8-downloader/blob/main/example/index.php) for a more complete usage.
 
 ## Full options
 ```
